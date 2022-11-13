@@ -1,2 +1,1 @@
-# tap.mapbu.biz
-TAP env for Hope
+Sample org structure for application catalog
