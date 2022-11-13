@@ -1,0 +1,22 @@
+registry:
+  server: "dev.registry.tanzu.vmware.com"
+  repository: "sliang-tap/hope/v130/build-service"
+
+gitops:
+  server_address: https://github.com/
+  repository_owner: vmware-tanzu
+  branch: main
+  username: supplychain
+  email: supplychain
+  commit_message: supplychain@cluster.local
+  ssh_secret: git-ssh
+  commit_strategy: direct
+
+maven:
+  repository:
+    url: https://my-maven-repository/releases
+    secret_name: my-maven-repository-credentials
+
+cluster_builder: default
+service_account: default
+
