@@ -19,8 +19,8 @@ ceip_policy_disclosed: TRUE # Installation fails if this is not set to true. Not
 
 profile: full # Can take iterate, build, run, view.
 
-# excluded_packages:
-# - policy.apps.tanzu.vmware.com
+excluded_packages:
+- policy.apps.tanzu.vmware.com
 
 supply_chain: basic  # Can take testing, testing_scanning.
 
